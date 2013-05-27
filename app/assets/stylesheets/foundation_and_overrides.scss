@@ -1,6 +1,28 @@
 // Required global settings and mixins for Foundation
 @import "foundation/foundation-global";
 
+
+// Top Bar Overrides
+nav {background: #611d1d !important}
+nav section {background: #611d1d !important}
+nav ul {background: #611d1d !important}
+nav section ul {background: #611d1d5 !important}
+nav section ul li a {background: #611d1d !important}
+li.toggle-topbar.menu-icon {background: #611d1d !important}
+.divider {border-left: 0px solid #451414 !important; border-right: 1px solid #511818 !important; border-top: 1px solid #451414 !important; border-bottom: 1px solid #511818 !important}
+
+// Button Overrides
+.button {background: #611d1d !important; border: 0px !important; color: white !important}
+
+// Other Overrides
+p a {color: #611d1d !important}
+
+// Footer Overrides
+.myfooter p {padding-top: 10px}
+.copyright {color: white; padding-left: 20px; float: left}
+.social {color: white; float: right; padding-right: 20px}
+.social a {color: #f5b2b2 !important}
+
 // Settings file to override Foundation variables
 
 // You can find the variables for each component at the bottom of their
@@ -1010,3 +1032,4 @@
 
 
 @import 'foundation';
+@import 'application.css';

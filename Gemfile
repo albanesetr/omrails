@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'jquery-rails'
+gem 'devise', '2.2.4'
+gem 'simple_form'
 
 group :production do
   gem 'pg'
@@ -17,5 +20,3 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'zurb-foundation', '~> 4.0.0'
 end
-
-gem 'jquery-rails'
